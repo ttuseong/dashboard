@@ -1,0 +1,26 @@
+.name input{
+  width: 50%
+}
+.name > input:nth-child(1){
+  float: left;
+}
+
+.email{
+  margin: 10px 0;
+}
+
+.email input{
+  width: 100%;
+}
+
+.pw{
+  margin-bottom: 10px;
+}
+
+.pw input{
+  width: 50%;
+}
+
+.pw > input:nth-child(1){
+  float: left;
+}

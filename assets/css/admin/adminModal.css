@@ -1,0 +1,345 @@
+@charset "UTF-8";
+#unitListModal {
+	left: -5.5%;
+}
+
+#unitManagerModal {   
+    left: -7%;
+    top: 1.25%;
+}
+ 
+/* 추가 구성 리스트 모달 */
+/* / 모달 전체 / */
+#unitListModal-content {
+	width: 655px;
+    border: none;
+    font-size: 15px;
+}
+
+/* / 모달 헤더 / */
+.adminModal-header {
+    min-height: 50px;
+    border: none;
+    text-align: center;
+    background-color: #1cc88a;
+}
+
+/* 헤더 클로즈 버튼 */
+.adminModal-close {
+	color: white;
+	font-size: 20px;
+	text-align: right;
+    margin-top: 3px;
+}
+
+/* / 모달 제목의 폰트 / */
+.adminModal-title {
+    color: white;
+    font-size: 17px;
+	font-weight: bold;
+}
+
+/* 모달 바디 */
+#unitListModal-body {
+	min-height: 200px;
+	padding: 40px;
+	text-align: center;
+}
+
+/* 리스트 테이블 */
+/* 테이블 선 */
+.unitListModal-unitList > table, td, th {
+	border: 1px solid lightgray;
+    padding: 5px 10px!important;
+}
+
+/* 테이블 및 셀 크기 */
+.unitListModal-unitList {
+	width: 100%;
+}
+
+.unitListModal-unitList > thead > th {
+	padding: 0!important;
+}
+
+.unitListModal-unitList > thead > tr > th:first-child {
+	width: 10%!important;
+}
+
+.unitListModal-unitList > thead > tr > th:nth-child(2) {
+	width: 18%!important;
+}
+
+.unitListModal-unitList > thead > tr > th:nth-child(3) {
+	width: 45%!important;
+}
+
+.unitListModal-unitList > thead > tr > th:last-child {
+	width: 26%!important;
+}
+
+.unitListModal-unitList > tbody > tr > td:nth-child(3) {
+	text-align: left!important;
+}
+
+/* 수정/적용 버튼 */
+.adminMenu-unitListBtnContainer, .adminModal-footerBtnContainer {
+	width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.adminMenu-unitListBtnContainer > .btn{
+	width: 55px!important;
+    height: 33px!important;
+    margin: 0 3px;
+    font-size: 15px;
+}
+
+/* 삭제 / 목록 추가 버튼 */
+.adminModal-footerBtnContainer > .btn{
+	width: 120px!important;
+    height: 33px!important;
+    margin: 0 3px;
+    font-size: 15px;
+}
+
+#isConnectModal-footerBtnContainer > .btn {
+	width: 80px!important;
+}
+
+/* 확인 버튼 배경 및 폰트 색상 */
+.adminMenu-unitListBtnContainer > .adminMenu-unitListSelect,
+.adminModal-footerBtnContainer > .btn:last-child {
+	background-color: white!important;
+    color: #1cc88a!important;
+}
+
+/* 취소 버튼 배경 및 폰트 색상 */
+.adminMenu-unitListBtnContainer > .adminMenu-unitListModify,
+.adminModal-footerBtnContainer > .btn:first-child {
+	background-color: white!important;
+    color: #858796!important;
+}
+
+/* 푸터 버튼 정렬 */
+.adminModal-footerBtnContainer {
+    position: absolute;
+    top: 0;
+}
+
+/* 구성 추가/수정 모달 */
+/* / 모달 전체 / */
+#unitManagerModal-content {
+	min-width: 700px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 0px 0px 7px grey;
+}
+
+/* 모달 바디 */
+.adminModal-body, .promotionModal-body {
+	width: 100%;
+	min-height: 100%;
+	padding: 40px;
+	text-align: center;
+}
+
+.unitManagerModal-inputAndDropDownContainer {
+	width: 600px;
+	margin: auto;	
+}
+
+/* 구성 이름 */
+.unitManagerModal-unitName > p, input{
+	display: inline-block;
+}
+
+/* 구성 이름 인풋 박스 스타일 */
+.unitManagerModal-unitName > input {
+	width: 210px;
+    height: 40px;
+    border: 1px solid #aeaeb0;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+/* 인풋 박스 네임 (이름, 추가구성 등) */
+.adminModal-body > div > div > p {
+    width: 85px;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.unitManagerModal-body > div > div {
+    width: 600px;
+	margin-bottom: 15px;
+    text-align: left;
+}
+
+.adminModal-body > div > div:nth-child(n+3) {
+    margin-left: 104px!important;
+    width: auto!important;
+}
+
+.adminModal-body > div > div:last-child {
+	margin-bottom: 0px!important;
+}
+
+/* 드롭다운 */
+.unitManagerModal-basicInfoDropdown > button {
+	width: 210px;
+	border: solid 1px #b4b4b4!important;
+}
+
+.unitManagerModal-basicInfoDropdown > ul > li {
+	width: 207px;
+	text-align: center;
+	font-size: 16px!important;	
+}
+
+#useMenuModal-menuDropdownUl > li {
+	width: 250px!important;
+}
+
+.unitManagerModal-unitComponent > p {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	font-weight: bold;
+}
+
+.unitManagerModal-cateDropdown, .unitManagerModal-menuDropdown {
+	display: inline-block!important;
+}
+
+.unitManagerModal-unitComponent > div > div {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/* 구성 추가 버튼 */
+.unitManagerModal-btnContainer {
+	display: inline-block;
+}
+
+.unitManagerModal-btnContainer > .unitAddBtn,
+.unitManagerModal-btnContainer > .unitDelBtn {
+	width: 30px;
+	height: 30px;
+}
+
+/* / 모달 푸터 / */
+.adminModal-footer {
+    position: relative;
+    
+    height: 75px;
+    padding: 0px;
+	border: none;
+    text-align: center;
+}
+
+.adminModal-footerBtnContainer > button {
+    width: 90px!important;
+}
+
+/* 연관 모달 */
+/* 드롭다운 */
+.isConnectModal-basicInfoDropdown > button {
+	width: 250px;
+}
+
+.isConnectModal-basicInfoDropdown > ul > li {
+	width: 247px;
+}
+
+/* 프로모션/할인 */
+.isSpecial-promotionModal-containerInBody > div {
+	display: inline-block;
+	min-width: 200px;
+}
+
+
+/* 프로모션/할인 이미지 */
+.isSpecial-promotionModal-containerInBody > div > img {
+	width: 150px;
+	height: 150px;	
+	/* -webkit-filter: grayscale(100%); */
+}
+
+.isSpecial-promotionModal-containerInBody > div > p {
+	width: 200px!important;
+	margin: 0px!important;
+}
+
+/* 할인 모달 */
+#saleModal {
+    top: 1.25%!important;
+    left: -1.65%;
+}
+
+#saleModal-content {
+	width: 550px;
+	border: none;
+	box-shadow: 0px 0px 7px grey!important;
+}
+
+.saleModal-containerInBody > div{
+	position: relative;
+	margin: 0!important;
+}
+
+.saleModal-containerInBody > div > input {
+	width: 250px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    padding-right: 50px;
+    
+    border: solid 1px #efeef0;
+    border-radius: 10px;
+    background-color: #efeef0;
+    color: #1cc88a!important;
+    
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+}
+
+.saleModal-containerInBody > div > input::placeholder {
+    color: #d1d1d2;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.fa-percentage, .won {
+	color: #1cc88a;
+    font-size: 25px!important;
+    
+    position: absolute!important;
+    top: 50%!important;
+    right: 25%!important;
+    transform: translateY(-50%);
+}
+
+.won {
+    width: 20px!important;
+    margin: 0!important;
+    padding-top: 1px;
+    text-align: right!important;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 프로모션 모달 */
+#promotionModal {
+	left: -7%;
+    top: 1.25%!important;
+}
+
+#promotionModal-content {
+	width: 700px;
+	border: none;
+	box-shadow: 0px 0px 7px grey!important;
+}

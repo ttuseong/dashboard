@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+a{
+	text-decoration:none!important;	
+}
+
+.dropdown-menu {
+      max-height:300px;
+      overflow-y:scroll;
+}
+
+.adminMenu-basicInfoDropdown > ul > li {
+	width: 238px;
+	text-align: center;
+	font-size: 16px!important;
+	margin-bottom: 2px;
+}
+
+#amdinMenu-menuDropdwon-hr {
+	width: 190px;
+	color: lightgray;
+	margin: 8px auto;
+}
+
+.adminMenu-basicInfoDropdown > button{
+	border: solid 1px #b4b4b4!important;
+}
+
+.manuInfo-menuInfoTitle {
+	position: relative;
+	
+	height: 50px;
+	background-color: #f7f7fa;
+	border-radius: 5px 5px 0 0;
+	border-bottom: solid 1px #e9eaec;
+	color: #1CC88A;
+	font-size: 18px;
+}
+
+.manuInfo-menuInfoTitle > span {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+	
+.manuInfo-menuInfoContent {
+	min-height: 350px;
+	background-color: white;
+	border-radius: 0 0 5px 5px;
+    padding: 40px 100px;
+}
+
+.manuInfo-menuInfoContent > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.manuInfo-contentContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 90%;
+    box-shadow: 1px 1px 25px 5px #dfe0e5;
+    border-radius: 5px;
+}
+
+/* 이미지, 이미지업로드 인풋 */
+.menuInfo-menuCateAndImg {
+	width: 230px;
+	/* background-color: black; */
+	text-align: center;
+	display: inline-block;
+    vertical-align: top;
+}
+
+.menuInfo-menuImg {
+    width: 230px;
+    margin-bottom: 25px;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#menuInfo-menuImgInput {
+	width: 200px;
+}
+
+/* 메뉴 기본 정보 */
+.menuInfo-basicInfoContainer {
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.menuInfo-basicInfoContainer > div {
+	margin-bottom: 20px;
+   	text-align: left;
+}
+
+.menuInfo-basicInfoContainer > div:nth-last-child(2) {
+	margin: 0px;
+}
+
+.menuInfo-basicInfoContainer > div:last-child {
+    margin-left: 85px;
+}
+
+.menuInfo-basicInfoContainer div > p, input,
+.adminMenu-unitBasicInfo {
+	display: inline-block;
+}
+
+.menuInfo-basicInfoContainer div > input {
+	color: gray;
+}
+
+.menuInfo-basicInfoContainer div > p {
+	font-weight: 750;
+	/* color: #1CC88A; */
+}
+
+.menuInfo-basicInfo > input {
+	width: 120px;
+    margin: 0 20px 0 20px;
+    padding-left: 5px;
+}
+
+/* 체크박스 */
+.menuInfo-menuDetails > input,
+.adminMenu-unitCheck > .adminMenu-unitBasicInfo > input {
+	width: 15px;
+    margin: 0 5px 1px 15px;
+	vertical-align: middle;
+}
+
+/* 단위 정보 체크박스를 둘러싸고 있는 div */
+.adminMenu-unitBasicInfo {
+	margin-right: 15px;
+}
+
+.menuInfo-menuDescription > p {
+	float: left;	
+}
+
+.menuInfo-menuDescription > textarea {
+	width: 556px;
+    height: 70px;
+    margin-left: 25px;
+    padding-left: 5px;
+    color: gray;
+}
+
+.adminMenu-basicInfo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.adminMenu-calorie > input {
+	margin-left: 20px!important;
+	width: 120px!important;
+	padding-left: 5px;
+}
+
+.adminMenu-btnContainer {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.adminMenu-btnContainer > .btn-icon-split {
+	width: 65px!important;
+	height: 38px!important;
+	margin: 0 5px;
+}
+
+/* 드롭다운 */
+.adminMenu-dropdownContainer > div > div {
+	display: inline-block;
+	text-align: center;
+}
+
+.adminMenu-dropdownContainer > div > div > button {
+	position: relative;
+    width: 241px!important;
+    margin: 0 20px 0 20px;
+}
+
+.menuInfo-basicInfoContainer > .adminMenu-dropdownContainerContainer {
+	margin-bottom: 8px!important;
+}
+
+.adminMenu-dropdownContainer > div{
+	display: inline-block!important;
+}
+
+/* 메뉴 기본 정보의 p태그와 div */
+.menuInfo-basicInfoContainer > div > p,
+.menuInfo-basicInfoContainer > div > div > p {
+	margin-bottom: 0px;
+	vertical-align: middle;
+}
+
+/* 추가구성 목록 버튼 */
+.adminMenu-unitListBtn {
+	display: inline-block;	
+}
+
+.adminUnitListBtn {
+    margin: 0 0 0 15px!important;
+	box-shadow: 1px 1px 2px lightgrey;	
+	font-size: 15px;
+	color: #1cc88a;
+    font-weight: bold;
+}
+
+/* 반응 */
+@media (max-width:1200px) {
+	.adminMenu-basicInfo {
+	    padding: 50px 20px;
+	}
+	
+	.menuInfo-basicInfoContainer {
+    	margin: 40px 44px 0px 44px;
+	}
+}
+
+@media (max-width:1041px) {
+	.menuInfo-basicInfoContainer {
+	    width: 450px!important
+	}
+	
+	.adminMenu-cateDropdown {
+		margin-bottom: 16px;
+	}
+	
+	.adminMenu-menuDropdown > p {
+		width:58.25px;
+		text-align: center;
+	}
+	
+	.adminMenu-dropdownContainer > div > div > button {
+	    width: 346px!important;
+	}
+	
+	.adminMenu-calorie {
+		display: block!important;
+		margin-top: 10px;
+	}
+	
+	.adminMenu-calorie > p {
+		width:58.25px;
+		text-align: center;
+	}
+	
+	.adminMenu-calorie > input {
+	    margin-top: 10px!important;
+	    width: 150px!important;
+	}
+	
+	.menuInfo-menuDescription > textarea {
+    	width: 344px!important;
+	}
+
+}
+
+.dropdown-toggle::after {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+tr > th:first-child {
+	width: 150px!important;
+    padding-left: 30px!important;
+	text-align:center!important;
+}
+
+tr > th:nth-child(2){
+    padding-left: 30px!important;
+	text-align:center!important;
+}
+
+tr > th:nth-child(3), th:nth-child(4), th:nth-child(5) {
+	width: 80px!important;
+    padding-left: 30px!important;
+	text-align:center!important;
+}
+
+tbody > tr > td:nth-child(3), td:nth-child(4), td:nth-child(5) {
+	width: 150px!important;
+	text-align:center!important;
+}
+
+tbody > tr > td:nth-child(2) > a {
+	color:#858796!important;
+	text-decoration: none;
+}
+
+.adminCate-addCateForm {
+    min-width: 250px!important;
+    border-radius: 5px!important;
+    background-color: #f1f2f5!important;
+}
+
+.input-group > p {
+	margin: auto;
+    margin-right: 20px;
+}
+
+.form-groupAndBtn {
+	display: inherit;
+    align-items: center;
+    margin: auto;
+}	
+
+@media (min-width:576px) and (max-width:952px) {
+	.form-group, .btn-icon-split{
+		margin-top: 20px;
+	}
+}
+
+
+/* 토핑 css */
+/* 확인 버튼 */
+.adminToping {
+	width: 100px !important;
+	height: 38px !important;
+	margin-top: 40px !important;
+}
+
+.adminTopping-addForm {
+    min-width: 200px!important;
+    border-radius: 5px!important;
+    background-color: #f1f2f5!important;
+}
+
+.adminTopping-addFormD {
+    border-radius: 5px!important;
+    background-color: #f1f2f5!important;
+}
+
+.input-groupTopping > p {
+	margin: auto;
+    margin-right: 10px;
+ 	margin-left: 10px;
+ 	display: inline-block;
+}
+
+
+.btn-success {
+	margin: auto;
+	margin-left: 10px;
+}

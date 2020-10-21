@@ -1,0 +1,27 @@
+/* 헤더 */
+header{
+  position: relative;
+  width: 100vw;
+  height: 50px;
+  border-bottom: 1px solid #1cc88a;
+  z-index: 2;
+  background-color: white;
+}
+
+#leftHeader{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+}
+
+#leftHeader img{
+  width: 150px;
+}
+
+#rightHeader{
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+}

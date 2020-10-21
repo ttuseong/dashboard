@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import
+url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* adminCate 카테고리 툴팁 */
+
+.adminCate-tooltip {
+	position: absolute;
+	top: 30px;
+	right: 1%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.adminCate-tooltip i {
+	
+	color: #1cc88a;
+	font-size: 25px;
+}
+
+.tooltip-text {
+	opacity: 0;
+	transition: 0.3s;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-size:16px;
+	display:table-cell;
+	padding: 15px 20px;
+	text-align: center;
+	border-radius: 5px;
+	width: 230px;
+	height: 80px;
+	position: absolute;
+	top: -50px;
+	right: 30px;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+/* adminCate 사진미리보기 툴팁*/
+
+.tooltip-img {
+	opacity: 0;
+	background-color: #c3bbbb;
+	color: white;	
+	position: absolute;
+	z-index:1;
+	right: 50%;
+	top:-35px;
+	transform:translateX(50%);
+}
+
+
+.tooltip-img > img{
+	color: black;
+	width: 450px;
+	height: 300px;
+	position: relative;
+	z-index: 1;
+}
+
+.tooltipImgHover{
+	position: relative;
+	z-index: 2;
+}
+
+.adminCate-delete{
+	position: relative;
+	z-index: 2;
+}
+
+
+#adminCate-search{
+	height: 30px !important;
+	width: 50px;
+	line-height: 30px;
+}
+
+.admin-paging{
+	justify-content: flex-end;
+}
+
+.admin-pageLink{
+	padding: .5rem .75rem;
+	line-height: 1.25;
+	color: #1cc88a;
+	background-color: white;
+	border: 1px solid #dddfeb;
+}
+
+.admin-pagePrevious{
+	border-top-left-radius: .35rem;
+	border-bottom-left-radius: .35rem;
+}
+
+.admin-next{
+	border-top-right-radius: .35rem;
+	border-bottom-right-radius: .35rem;
+}
+
+.admin-pageActive{
+	color: white;
+	background-color: #1cc88a;
+	border-color: #1cc88a;
+}
+
+
+
