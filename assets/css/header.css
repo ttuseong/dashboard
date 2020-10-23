@@ -2,8 +2,8 @@
 header{
   position: relative;
   width: 100vw;
-  height: 50px;
-  border-bottom: 1px solid #1cc88a;
+  height: 5%;
+  border-bottom: 3px solid #6be1a3;
   z-index: 2;
   background-color: white;
 }
