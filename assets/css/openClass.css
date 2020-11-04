@@ -1,0 +1,22 @@
+.init{
+  margin: 0;
+}
+
+.center{
+  float: none;
+  margin: 0 auto;
+}
+
+input{
+  width: 100%;
+  height: 40px;
+}
+
+textarea{
+  width: 100%;
+}
+
+[name = 'check']{
+  display: block;
+  margin: 0 auto;
+}
